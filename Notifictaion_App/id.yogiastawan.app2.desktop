@@ -1,0 +1,22 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Categories=Development;
+Comment[en_US]=App for test notification.
+Comment=App for test notification.
+Exec=/home/yogiastawan/Programming/C/GTK-test/Notifictaion_App/app
+GenericName[en_US]=
+GenericName=
+Icon=7765_winebrowser.0
+MimeType=
+Name[en_US]=app
+Name=app
+Path=/home/yogiastawan/Programming/C/GTK-test/Notifictaion_App
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+Version=0.1
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
