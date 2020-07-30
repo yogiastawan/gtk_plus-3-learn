@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<interface>
+  <!-- interface-requires gtk+ 3.0 -->
+  <object id="window" class="GtkWindow">
+    <property name="visible">True</property>
+    <property name="title">Window UI</property>
+    <property name="border-width">0</property>
+    <child>
+      <object id="hellolabel" class="GtkLabel">
+        <property name="visible">True</property>
+        <property name="label">Hello World</property>
+        <property name="can_focus">False</property>
+      </object>
+    </child>
+  </object>
+</interface>
