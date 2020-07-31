@@ -140,7 +140,7 @@ static gboolean my_widget_draw(GtkWidget *widget, cairo_t *cr)
     GtkAllocation alloc;
     gtk_widget_get_allocation(widget,&alloc);
     cairo_set_source_rgb(cr,0,0,1);
-    cairo_rectangle(cr,0*priv->value,0,(double)alloc.width,(double)alloc.height);
+    cairo_rectangle(cr,priv->value,priv->value,((double)alloc.width)-(2*priv->value),((double)alloc.height)-(2*priv->value));
     cairo_fill(cr);
     // cairo_destroy(cr);
     return FALSE;
