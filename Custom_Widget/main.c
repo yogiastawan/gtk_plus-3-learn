@@ -1,4 +1,5 @@
 #include <gtk/gtk.h>
+#include "mywidget.h"
 
 void main_ui(GtkApplication *app, gpointer *user_data);
 
@@ -18,8 +19,11 @@ int main(int argc, char *argv[])
 void main_ui(GtkApplication *app, gpointer *user_data)
 {
     GtkWidget *window;
+    GtkWidget *mywidget;
+    mywidget=my_widget_new();
     window = gtk_application_window_new(app);
     gtk_window_set_title(GTK_WINDOW(window), (gchar *)user_data);
+    gtk_container_add(GTK_CONTAINER(window),mywidget);
 
     gtk_widget_show_all(window);
 }

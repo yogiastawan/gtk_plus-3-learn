@@ -39,7 +39,7 @@ GtkWidget *my_widget_new(void);
 //set value widget
 void my_widget_set_value(MyWidget *widget, gdouble value);
 //get value widget
-void my_widget_get_value(MyWidget *widget);
+gdouble my_widget_get_value(MyWidget *widget);
 
 G_END_DECLS
 
